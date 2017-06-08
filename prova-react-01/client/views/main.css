@@ -1,0 +1,102 @@
+.hello {
+  margin: 2em;
+  font-family: monospace;
+}
+
+#title{
+
+  color: #044b76;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+
+
+}
+
+#bubble_menu ul{
+
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2em;
+
+}
+
+#bubble_menu ul li{
+
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+text-align: center;
+font-size:16px;
+font-weight:bolder;
+font-family: Georgia, Serif;
+padding: 0.2em 0.2em 0.2em 0.2em;
+border: solid 1px #044b76;
+background: #04436a;
+color: #FFF;
+box-shadow: 0 1.2em 0.5em rgba(255, 255, 255, 0.35) inset;
+cursor: pointer;
+
+
+
+}
+
+#bubble_menu ul li:hover{
+	background: #FFF;
+	color:#04436a;
+
+}
+
+#crea_lista h1{
+  text-align: center;
+  margin-bottom: 1em;
+  color: #2E2E33;
+  font-size: 1.2em;
+}
+
+#crea_lista button{
+  border: solid 1px #2E2E33;
+  background: #2E2E33;
+  color: #FFF;
+  box-shadow: 0 1.2em 0.5em rgba(255, 255, 255, 0.35) inset;
+  cursor: pointer;
+  padding: 0.2em;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1em;
+  text-align: center;
+}
+
+#crea_lista input{
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 0.5em;
+  border: solid 1px #000;
+
+}
+
+#crea_lista button:active{
+  background: #FFF;
+	color:#2E2E33;
+}
+#bv_root{
+  border: solid 1px #2E2E33;
+}
+
+#bv_root h1{
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+#bv_root ul{
+    text-align: center;
+}
+
+#bv_root ul li{
+    margin-bottom: 0.5em;
+    border-bottom: solid 1px #000;
+    width: 60%;
+    margin-left: 20%;
+}
